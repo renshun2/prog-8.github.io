@@ -1,0 +1,735 @@
+.background {
+	position: relative;
+}
+
+.background p {
+	position: absolute;
+	color: white;
+	top: 0;
+	left: 0;
+	padding-top: 5%;
+	padding-left: 5%;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.background img {
+	width: 100%;
+	height: 541px;
+	background-size: cover;
+}
+
+/*
+.multi-bg {
+  width: 100%;
+  height: 514px;
+  background-image: url(photo-1618775202234-166f12fc962c.jpg),
+  url(Airbnb_icon-icons.com_66791.png);
+  linear-gradient( to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+  background-position: bottom right,
+      left,
+      right;
+}
+/*  */
+
+/*
+#id_sample {
+  width: 10%;
+  height: 100px;
+}
+
+.class_sample {
+  background-image: 
+    url("Airbnb_icon-icons.com_66791.png/300"),
+    url("photo-1618775202234-166f12fc962c.jpg");
+}
+/* fadeInでエラー */
+
+.background h1 {
+	position: absolute;
+	color: white;
+	top: 0;
+	left: 0;
+	padding-top: 8%;
+	padding-left: 5%;
+	font-size: 60px !important;
+	line-height: 60px !important;
+	margin-bottom: 24px !important;
+	font-weight: 700 !important;
+	max-width: 808px !important;
+}
+
+.background li {
+	position: absolute;
+	color: blue;
+	top: 0;
+	left: 0;
+	padding-top: 19%;
+	padding-left: 5%;
+	font-size: 20px !important;
+	line-height: 30px !important;
+	margin-bottom: 24px !important;
+	max-width: 592px !important;
+}
+
+.background a {
+	position: absolute;
+	top: 67%;
+	left: 5%;
+	margin: 0;
+	font-size: 25px;
+	border: solid #E31C5F 2px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	text-decoration: none;
+	background-color: #E31C5F;
+	border-radius: 10px;
+}
+
+/*
+.js-fadein {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(40px);
+  transition: all 1s;
+}
+.js-fadein.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+/* fadeInでエラー(HTMLとCSSのみ) */
+
+.intro {
+	color: black;
+	font-size: 45px;
+	font-weight: 700 !important;
+	max-width: 808px !important;
+	top: 0;
+	left: 0;
+	margin: 2em 0px;
+	padding-left: 5%;
+	line-height: 45px;
+	list-style: none;
+	float: left;
+}
+
+.duction {
+	font-size: 26px;
+	font-weight: bold;
+	list-style: none;
+	padding: 60px 100px 0px 599px
+}
+
+.a {
+	padding: 10px 500px 10px 600px;
+	margin: -1em 0px;
+}
+
+.btn-wrap {
+	margin-left: 599px;
+	margin-top: 40px;
+	color: black;
+}
+
+.b {
+	font-size: 26px;
+	font-weight: bold;
+	list-style: none;
+	padding: 0px 0px 100px 660px;
+	float: left;
+	margin: -8em 0px;
+}
+
+.c {
+	margin: -9.5em 0px;
+	margin-left: 1090px;
+}
+
+.btn-a {
+	margin-left: 1090px;
+	margin-top: 160px;
+}
+
+.slide {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.slide img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: auto;
+	opacity: 0;
+}
+
+@keyframes thumb1 {
+	0% {
+		filter: grayscale(0%);
+	}
+	6% {
+		filter: grayscale(100%);
+	}
+	10% {
+		filter: grayscale(100%);
+	}
+	28% {
+		filter: grayscale(100%);
+	}
+	37% {
+		filter: grayscale(0%);
+	}
+	100% {
+		filter: grayscale(0%);
+	}
+}
+
+@keyframes thumb2 {
+	0% {
+		filter: grayscale(0%);
+	}
+	6% {
+		filter: grayscale(100%);
+	}
+	10% {
+		filter: grayscale(100%);
+	}
+	28% {
+		filter: grayscale(100%);
+	}
+	37% {
+		filter: grayscale(0%);
+	}
+	100% {
+		filter: grayscale(0%);
+	}
+}
+
+@keyframes thumb3 {
+	0% {
+		filter: grayscale(0%);
+	}
+	6% {
+		filter: grayscale(100%);
+	}
+	10% {
+		filter: grayscale(100%);
+	}
+	28% {
+		filter: grayscale(100%);
+	}
+	37% {
+		filter: grayscale(0%);
+	}
+	100% {
+		filter: grayscale(0%);
+	}
+}
+
+@keyframes slideshow1 {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	28% {
+		opacity: 1;
+	}
+	38% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes slideshow2 {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	28% {
+		opacity: 1;
+	}
+	38% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes slideshow3 {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	28% {
+		opacity: 1;
+	}
+	38% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.thumbnail {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin-top: 30px;
+	justify-content: center;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.thumbnail img {
+	display: block;
+	width: 200px;
+	height: 100px;
+	object-fit: cover;
+	margin: 10px;
+	cursor: pointer;
+}
+
+/*ページを開いたとき＆一つ目のサムネイルをクリックしたとき*/
+
+#img1:checked~.thumbnail label[for="img1"] img {
+	animation: thumb1 24s linear infinite both;
+	animation-delay: 0s;
+	cursor: auto;
+}
+
+#img1:checked~.thumbnail label[for="img2"] img {
+	animation: thumb1 24s linear infinite both;
+	animation-delay: 8s;
+}
+
+#img1:checked~.thumbnail label[for="img3"] img {
+	animation: thumb1 24s linear infinite both;
+	animation-delay: 16s;
+}
+
+#img1:checked~.slide img {
+	animation: slideshow1 24s linear infinite;
+}
+
+#img1:checked~.slide img:nth-child(1) {
+	animation-delay: 0s;
+}
+
+#img1:checked~.slide img:nth-child(2) {
+	animation-delay: 8s;
+}
+
+#img1:checked~.slide img:nth-child(3) {
+	animation-delay: 16s;
+}
+
+/*二つ目のサムネイルをクリックしたとき*/
+
+#img2:checked~.thumbnail label[for="img1"] img {
+	animation: thumb2 24s linear infinite both;
+	animation-delay: 16s;
+}
+
+#img2:checked~.thumbnail label[for="img2"] img {
+	animation: thumb2 24s linear infinite both;
+	animation-delay: 0s;
+	cursor: auto;
+}
+
+#img2:checked~.thumbnail label[for="img3"] img {
+	animation: thumb2 24s linear infinite both;
+	animation-delay: 8s;
+}
+
+#img2:checked~.slide img {
+	animation: slideshow2 24s linear infinite;
+}
+
+#img2:checked~.slide img:nth-child(1) {
+	animation-delay: 16s;
+}
+
+#img2:checked~.slide img:nth-child(2) {
+	animation-delay: 0s;
+}
+
+#img2:checked~.slide img:nth-child(3) {
+	animation-delay: 8s;
+}
+
+/*二つ目のサムネイルをクリックしたとき*/
+
+#img3:checked~.thumbnail label[for="img1"] img {
+	animation: thumb3 24s linear infinite both;
+	animation-delay: 8s;
+}
+
+#img3:checked~.thumbnail label[for="img2"] img {
+	animation: thumb3 24s linear infinite both;
+	animation-delay: 16s;
+}
+
+#img3:checked~.thumbnail label[for="img3"] img {
+	animation: thumb3 24s linear infinite both;
+	animation-delay: 0s;
+	cursor: auto;
+}
+
+#img3:checked~.slide img {
+	animation: slideshow3 24s linear infinite;
+	animation-delay: 8s;
+}
+
+#img3:checked~.slide img:nth-child(1) {
+	animation-delay: 8s;
+}
+
+#img3:checked~.slide img:nth-child(2) {
+	animation-delay: 16s;
+}
+
+#img3:checked~.slide img:nth-child(3) {
+	animation-delay: 0s;
+}
+
+.example {
+	text-align: center;
+	position: relative;
+}
+
+.example img {
+	width: 90%;
+	border-radius: 5%;
+	height: 500px;
+}
+
+.example p {
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	top: 5%;
+	left: 10%;
+	font-size: 6\20px;
+	color: white;
+}
+
+.d {
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 480%;
+	left: 10%;
+	color: white;
+}
+
+.e {
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 700%;
+	left: 10%;
+	color: white;
+	text-decoration: underline;
+}
+
+.f {
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1050%;
+	left: 10%;
+	color: white;
+}
+
+.g {
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1300%;
+	left: 10%;
+	color: white;
+	text-decoration: underline;
+}
+
+.h {
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1650%;
+	left: 10%;
+	color: white;
+}
+
+.i {
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1900%;
+	left: 10%;
+	color: white;
+	text-decoration: underline;
+}
+
+.j {
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 2250%;
+	left: 10%;
+	color: white;
+}
+
+span {
+	color: red;
+}
+
+.example a {
+	position: absolute;
+	top: 83%;
+	left: 10%;
+	margin: 0;
+	font-size: 25px;
+	border: solid #E31C5F 2px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	text-decoration: none;
+	background-color: #E31C5F;
+	border-radius: 10px;
+}
+
+.k {
+	position: absolute;
+	font-size: 1px;
+	line-height: 2600%;
+	padding-left: 13%;
+	color: white;
+	text-decoration: underline;
+}
+
+.before h1 {
+	font-size: 40px;
+	padding-left: 5%;
+	padding-top: 3%;
+}
+
+.before img {
+	width: 20%;
+	height: 20%;
+	float: left;
+	padding-left: 20%;
+	border-radius: 10px;
+}
+
+.l {
+	position: absolute;
+	font-weight: bold;
+	line-height: 450px;
+	left: 20%;
+	font-size: 19px;
+
+}
+
+.m {
+	position: absolute;
+	line-height: 510px;
+	left: 14%;
+}
+
+.n {
+	position: absolute;
+	font-weight: bold;
+	line-height: 450px;
+	left: 60%;
+	font-size: 19px;
+}
+
+.o {
+	position: absolute;
+	line-height: 510px;
+	left: 53%;
+}
+
+.p {
+	position: absolute;
+	top: 355%;
+	left: 0%;
+}
+
+.q {
+	position: absolute;
+	line-height: 1030px;
+	left: 22%;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.r {
+	position: absolute;
+	line-height: 1100px;
+	left: 17%;
+}
+
+.s {
+	position: absolute;
+	top: 355%;
+	left: 40%;
+}
+
+.t {
+	position: absolute;
+	line-height: 1030px;
+	left: 57%;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.u {
+	position: absolute;
+	line-height: 1100px;
+	left: 57%;
+}
+
+.suport h1 {
+	position: absolute;
+	font-weight: bold;
+	font-size: 45px;
+	padding-top: 48%;
+	padding-left: 5%;
+}
+
+.suport h2 {
+	position: absolute;
+	padding-top: 55%;
+	left: 6%;
+}
+
+.v {
+	position: absolute;
+	padding-top: 58%;
+	left: 6%;
+}
+
+.w {
+	position: absolute;
+	padding-top: 66%;
+	left: 6%;
+	text-decoration: underline;
+}
+
+.x {
+	position: absolute;
+	padding-left: 32%;
+}
+
+.y {
+	position: absolute;
+	padding-top: 61%;
+	padding-left: 38%;
+}
+
+.z {
+	position: absolute;
+	padding-top: 69%;
+	padding-left: 38%;
+	text-decoration: underline;
+}
+
+.A {
+	position: absolute;
+	padding-left: 64%;
+}
+
+.B {
+	position: absolute;
+	padding-top: 58%;
+	padding-left: 69.5%;
+}
+
+.C {
+	position: absolute;
+	padding-top: 69%;
+	padding-left: 69.5%;
+	text-decoration: underline;
+}
+
+.start {
+	position: relative;
+}
+
+.start img {
+	padding-top: 70%;
+	width: 100%;
+	height: 550px;
+}
+
+.D {
+	top: 0;
+	position: absolute;
+	left: 5%;
+	padding-top: 88%;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.E {
+	position: absolute;
+	top: 0;
+	left: 5%;
+	padding-top: 98%;
+	font-size: 19px;
+}
+
+.start a {
+	position: absolute;
+	top: 86%;
+	left: 5%;
+	margin: 0;
+	font-size: 25px;
+	border: solid #E31C5F 2px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	text-decoration: none;
+	background-color: #E31C5F;
+	border-radius: 10px;
+}
+
+.G {
+	position: absolute;
+	color: white;
+	font-weight: bold;
+}
+
+.F {
+	position: absolute;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 3%;
+	left: 5%;
+	line-height: 100%;
+}
+
+.H {
+	position: absolute;
+	padding-top: 12%;
+	left: 5%;
+}
